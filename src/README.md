@@ -1,6 +1,8 @@
-### These projects from 100 Days of Code by Angela Yu
+### These project from 100 Days of Code by Angela Yu
 
 ---
+While the inspiration and the tutorials from Angela Yu, for better learning and grasping the concepts, I try to write project codes by myself as suggested.
+
 In the series, we also do a lot of code challenges from different platforms (like replit and codingrooms) to learn the
 concepts of the projects.
 
