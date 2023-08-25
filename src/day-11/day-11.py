@@ -1,6 +1,7 @@
 # On day 11, we are: Coding the Capstone Project
 
 # Project 11 - Blackjack
+# Didn't use any of the tips B)
 import random
 import blackjack_art
 
@@ -88,9 +89,6 @@ def play():
             play_again()
     computer_deck, computer_score = computer_below_seventeen(computer_deck, computer_score, player_deck,
                                                              player_score)
-    # else:
-    #     computer_deck, computer_score = computer_below_seventeen(computer_deck, computer_score, player_deck,
-    #                                                              player_score)
     determine_winner(player_deck, computer_deck, player_score, computer_score)
 
 
