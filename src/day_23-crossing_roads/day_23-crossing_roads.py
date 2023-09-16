@@ -50,11 +50,11 @@ while game_on:
 
     # Game Over condition
     for car in car_wave:
-        if player.distance(car) < 3:
+        if player.distance(car) < 30:
             game_on = scoreboard.game_over(scoreboard.level)
 
     # Create another car object every third game loop and add it to car wave list
-    if game_loop == 3:
+    if game_loop == 2:
         car = Car()
         car_wave.append(car)
         game_loop = 0
